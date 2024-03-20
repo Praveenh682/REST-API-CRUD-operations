@@ -5,6 +5,6 @@ class PeopleSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Person
-        fields=['name','age']
+        fields='__all__'
 
 
